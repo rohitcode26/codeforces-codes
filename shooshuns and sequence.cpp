@@ -28,7 +28,7 @@ void swap_int(int *a , int *b)
 	*b = temp ;
 }
  
-int solve (int testcase)
+void solve (int testcase)
 {
 	int n , k , pos = 0 , count = 0 ;
 	cin >> n >> k ;
